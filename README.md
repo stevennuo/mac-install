@@ -23,11 +23,12 @@ APPS:
 * systemPreferences
 * iTerm -> color -> font -> zsh
 
-``` mkdir ~/cfg 
+``` mkdir ~/cfg ```
 
-``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
+``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh ```
 
-``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
+``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc ```
+
 * Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
 
 [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [n](https://github.com/tj/n)
