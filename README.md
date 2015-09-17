@@ -18,12 +18,18 @@ APPS:
 * Unarchiver
 * CheatSheet
 * VLC
-systemPreferences
-iTerm -> color -> font -> zsh
+
+流程其他需要安装或配置的:
+* systemPreferences
+* iTerm -> color -> font -> zsh
+
 ``` mkdir ~/cfg 
+
 ``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
+
 ``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
-Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
+* Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
+
 [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [n](https://github.com/tj/n)
 
 其它:
@@ -38,5 +44,6 @@ Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
 * WebStorm -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
 
 
-!!!Reddis
-!!!Mongo
+!!!Reddis 采用docker
+
+!!!Mongo 采用docker
