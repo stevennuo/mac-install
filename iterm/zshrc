@@ -86,5 +86,6 @@ alias envconfig="subl ~/cfg/env.sh"
 alias c="cd ~/codes/ && ll"
 alias cb="cd ~/codes/onions && ll"
 alias bd="ssh master@bd.yangcong345.com"
+alias sw="ssh master@10.8.8.8"
 # Add env.sh
 . ~/cfg/env.sh
