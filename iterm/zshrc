@@ -85,5 +85,6 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias envconfig="subl ~/cfg/env.sh"
 alias c="cd ~/codes/ && ll"
 alias cb="cd ~/codes/onions && ll"
+alias bd="ssh master@bd.yangcong345.com"
 # Add env.sh
 . ~/cfg/env.sh
