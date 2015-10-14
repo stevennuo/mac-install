@@ -43,7 +43,7 @@ APPS:
 
 开发:
 * WebStorm -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
-
+* ssh-copy-id  -> brew install ssh-copy-id
 
 !!!Reddis 采用docker
 
