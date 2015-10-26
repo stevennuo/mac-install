@@ -4,10 +4,10 @@
 [关注HomeBrew Cask](http://caskroom.io/)
 
 开始：
-* [Chrome](https://www.baidu.com/s?wd=chrome) 
+* [Chrome](https://www.baidu.com/s?wd=chrome)
+* [HomeBrew](http://brew.sh) -> brew install git
 * [Shadowsocks](https://github.com/stevennuo/shadowsocks) -> rename qrcode.secret -> qrcode.png
 * Sign in Chrome -> restart -> sync
-* [HomeBrew](brew.sh)
 
 [主要流程](https://github.com/sb2nov/mac-setup)
 APPS:
