@@ -22,7 +22,7 @@ git clone https://github.com/altercation/solarized
 ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
 ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
-* [系统配置]
+* [系统配置](https://github.com/sb2nov/mac-setup/tree/master/SystemPreferences)
 * [iTerm-注意color和font](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 * [以下APP安装请看这里](https://github.com/sb2nov/mac-setup/tree/master/Apps):  
   Alfred / AppCleaner / Spectacle / Unarchiver / CheatSheet / VLC
@@ -31,7 +31,7 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 
 其它:
 * [DASH](https://itunes.apple.com/us/app/dash/id449589707?ls=1&mt=12)
-* [GitX](http://gitx.frim.nl/) -> Terminal tool
+* [GitX](http://gitx.frim.nl/) -> 设置Terminal tool
 * [Thunder](http://mac.xunlei.com/)
 * [WeChat](http://weixin.qq.com/cgi-bin/readtemplate?t=mac)
 * [钉钉](http://www.dingtalk.com/#a1)
