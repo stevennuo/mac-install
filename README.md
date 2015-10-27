@@ -10,6 +10,16 @@
 * Sign in Chrome -> restart -> sync
 
 [主要流程](https://github.com/sb2nov/mac-setup)
+系统安装或配置的:
+* systemPreferences
+* iTerm -> color -> font -> zsh
+ 
+``` mkdir ~/cfg ```
+
+``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh ```
+
+``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc ```
+
 APPS:
 * XCode -> git -> [shortcut](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 * Alfred
@@ -18,16 +28,6 @@ APPS:
 * Unarchiver
 * CheatSheet
 * VLC
-
-流程其他需要安装或配置的:
-* systemPreferences
-* iTerm -> color -> font -> zsh
-
-``` mkdir ~/cfg ```
-
-``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh ```
-
-``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc ```
 
 * Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
 
