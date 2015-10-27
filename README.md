@@ -24,6 +24,7 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
 * [系统配置](https://github.com/sb2nov/mac-setup/tree/master/SystemPreferences)
 * [iTerm-注意color和font](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+    iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 * [以下APP安装请看这里](https://github.com/sb2nov/mac-setup/tree/master/Apps):  
   Alfred / AppCleaner / Spectacle / Unarchiver / CheatSheet / VLC
 * [Sublime](https://github.com/sb2nov/mac-setup/tree/master/SublimeText) -> [command tool](https://gist.github.com/olivierlacan/1195304)
@@ -39,7 +40,12 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 
 开发:
 * [WebStorm](http://www.jetbrains.com/webstorm/) -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
-* ssh-copy-id  -> `brew install ssh-copy-id`
+* ssh-copy-id
+```
+brew install ssh-copy-id
+ssh-keygen
+ssh-copy-id -i master@bd.yangcong345.com
+```
 * [3T MongoChef](http://3t.io/mongochef/download/platform/)
 
 !!!Reddis 采用docker
