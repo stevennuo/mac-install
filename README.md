@@ -19,11 +19,12 @@ mkdir ~/cfg
 cd ~/codes
 git clone https://github.com/stevennuo/mac-install.git
 git clone https://github.com/altercation/solarized
+git clone https://github.com/jkaving/intellij-colors-solarized.git
 ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
 ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
 * [系统配置](https://github.com/sb2nov/mac-setup/tree/master/SystemPreferences)
-* [iTerm-注意color和font](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+* [iTerm-注意color和font,字体用mac自带fontbook统一安装](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
     iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 * [以下APP安装请看这里](https://github.com/sb2nov/mac-setup/tree/master/Apps):  
   Alfred / AppCleaner / Spectacle / Unarchiver / CheatSheet / VLC
