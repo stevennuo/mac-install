@@ -1,37 +1,33 @@
 # mac-install 
-
-
-[关注HomeBrew Cask](http://caskroom.io/)
+本文主要流程参考自[sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)，最近在[关注HomeBrew Cask](http://caskroom.io/)
 
 开始：
+* 先app store升级系统和xcode
 * [Chrome](https://www.baidu.com/s?wd=chrome)
-* [HomeBrew](http://brew.sh) -> brew install git
-* [Shadowsocks](https://github.com/stevennuo/shadowsocks) -> rename qrcode.secret -> qrcode.png
+* [HomeBrew](http://brew.sh) -> 如果GFW把里面的脚本单独下载本地cat执行 -> `brew install git`
+* [Shadowsocks](https://github.com/stevennuo/shadowsocks)
 * Sign in Chrome -> restart -> sync
 
-[主要流程](https://github.com/sb2nov/mac-setup)
-系统安装或配置的:
-* systemPreferences
-* iTerm -> color -> font -> zsh
- 
-``` mkdir ~/cfg ```
-
-``` ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh ```
-
-``` ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc ```
-
-APPS:
-* XCode -> git -> [shortcut](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
-* Alfred
-* AppCleaner
-* Spectacle
-* Unarchiver
-* CheatSheet
-* VLC
-
-* Sublime -> [command tool](https://gist.github.com/olivierlacan/1195304)
-
-[Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [n](https://github.com/tj/n)
+[主要参考见这里](https://github.com/sb2nov/mac-setup)
+* 创建文件夹
+``` 
+mkdir ~/restore 
+mkdir ~/restore/app
+mkdir ~/restore/dmg
+mkdir ~/codes
+mkdir ~/cfg
+cd ~/codes
+git clone https://github.com/stevennuo/mac-install.git
+git clone https://github.com/altercation/solarized
+ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
+ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
+```
+* [系统配置]
+* [iTerm-注意color和font](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+* [以下APP安装请看这里](https://github.com/sb2nov/mac-setup/tree/master/Apps):  
+  Alfred / AppCleaner / Spectacle / Unarchiver / CheatSheet / VLC
+* [Sublime](https://github.com/sb2nov/mac-setup/tree/master/SublimeText) -> [command tool](https://gist.github.com/olivierlacan/1195304)
+* [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [n](https://github.com/tj/n)
 
 其它:
 * [DASH](https://itunes.apple.com/us/app/dash/id449589707?ls=1&mt=12)
