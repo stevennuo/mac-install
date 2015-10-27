@@ -38,8 +38,8 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 * [阿里旺旺](http://labs.etao.com/aliwangwang)
 
 开发:
-* WebStorm -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
-* ssh-copy-id  -> brew install ssh-copy-id
+* [WebStorm](http://www.jetbrains.com/webstorm/) -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
+* ssh-copy-id  -> `brew install ssh-copy-id`
 * [3T MongoChef](http://3t.io/mongochef/download/platform/)
 
 !!!Reddis 采用docker
