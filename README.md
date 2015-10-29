@@ -38,6 +38,7 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 * [WeChat](http://weixin.qq.com/cgi-bin/readtemplate?t=mac)
 * [钉钉](http://www.dingtalk.com/#a1)
 * [阿里旺旺](http://labs.etao.com/aliwangwang)
+* [Aerial屏保](https://github.com/JohnCoates/Aerial)
 
 开发:
 * [WebStorm](http://www.jetbrains.com/webstorm/) -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized)
