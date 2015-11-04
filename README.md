@@ -5,7 +5,7 @@
 * 先app store升级系统和xcode
 * [Chrome](https://www.baidu.com/s?wd=chrome)
 * [HomeBrew](http://brew.sh) -> 如果GFW把里面的脚本单独下载本地cat执行 -> `brew install git`
-* [Shadowsocks](https://github.com/stevennuo/shadowsocks)
+* [Shadowsocks](https://github.com/stevennuo/shadowsocks) [服务器配置](https://github.com/guanghetv/op/blob/master/server/cloud/shadowsocks.md)
 * Sign in Chrome -> restart -> sync
 
 [主要参考见这里](https://github.com/sb2nov/mac-setup)
@@ -23,6 +23,17 @@ git clone https://github.com/jkaving/intellij-colors-solarized.git
 ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
 ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
+
+* [proxychains](https://github.com/rofl0r/proxychains-ng)
+```
+cd ~/codes && git clone https://github.com/rofl0r/proxychains-ng
+./configure --prefix=/usr --sysconfdir=/etc
+make
+sudo make install
+sudo make install-config
+```
+修改/etc/proxychains.conf最后一行proxylist `socks5  127.0.0.1 1080`
+
 * [系统配置](https://github.com/sb2nov/mac-setup/tree/master/SystemPreferences)
 * [iTerm-注意color和font,字体用mac自带fontbook统一安装](https://github.com/sb2nov/mac-setup/tree/master/iTerm) -> [Zsh-env和zsh上面脚本已配置](https://github.com/sb2nov/mac-setup/blob/master/iTerm/zsh.md) -> [Git快捷按键文档,已装，建议学习一下](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
     iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
