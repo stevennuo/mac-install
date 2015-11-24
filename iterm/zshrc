@@ -84,9 +84,11 @@ alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias envconfig="subl ~/cfg/env.sh"
 alias c="cd ~/codes/ && ll"
-alias cb="cd ~/codes/onions && ll"
+alias cs="cd ~/codes/onions && ll"
+alias cm="cd ~/codes/mac-install && ll"
 alias bd="ssh master@bd.yangcong345.com"
 alias sw="ssh master@10.8.8.8"
 alias pc="proxychains4"
+alias mgd="mongod --config /usr/local/etc/mongod.conf"
 # Add env.sh
 . ~/cfg/env.sh
