@@ -20,9 +20,19 @@ cd ~/codes
 git clone https://github.com/stevennuo/mac-install.git
 git clone https://github.com/altercation/solarized
 git clone https://github.com/jkaving/intellij-colors-solarized.git
+ln -s ~/codes/mac-install/.gitignore_global ~/.gitignore_global
 ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
 ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
+
+* Git && Github
+git config --global core.excludesfile ~/.gitignore_global
+curl -s -O https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
+chmod u+x git-credential-osxkeychain
+sudo mv git-credential-osxkeychain \\n"$(dirname $(which git))/git-credential-osxkeychain"
+```
+输完密码 `git config --global credential.helper osxkeychain`
+
 
 * [proxychains](https://github.com/rofl0r/proxychains-ng)
 ```
