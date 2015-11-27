@@ -26,6 +26,7 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 ```
 
 * Git && Github
+```
 git config --global core.excludesfile ~/.gitignore_global
 curl -s -O https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
 chmod u+x git-credential-osxkeychain
