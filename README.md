@@ -53,7 +53,7 @@ iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 * [以下APP安装请看这里](https://github.com/sb2nov/mac-setup/tree/master/Apps):  
   Alfred / AppCleaner / Spectacle / Unarchiver / CheatSheet / VLC
 * [Sublime](https://github.com/sb2nov/mac-setup/tree/master/SublimeText) -> [command tool](https://gist.github.com/olivierlacan/1195304)
-* [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [cnpm](http://npm.taobao.org/) -> `npm install -g babel babel-eslint browserify buddy.js eslint eslint-config-defaults eslint-plugin-filenames gulp gulp-cli jsinspect mocha nodemon npm-check-updates pm2`
+* [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [cnpm](http://npm.taobao.org/) -> `npm install -fg babel babel-eslint browserify buddy.js eslint eslint-config-defaults eslint-plugin-filenames gulp gulp-cli jsinspect mocha nodemon npm-check-updates pm2`
 
 其它:
 * [DASH](https://itunes.apple.com/us/app/dash/id449589707?ls=1&mt=12)
