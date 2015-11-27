@@ -27,10 +27,11 @@ ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
 
 * Git && Github
 ```
+cd ~/codes
 git config --global core.excludesfile ~/.gitignore_global
 curl -s -O https://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain
 chmod u+x git-credential-osxkeychain
-sudo mv git-credential-osxkeychain \\n"$(dirname $(which git))/git-credential-osxkeychain"
+sudo mv git-credential-osxkeychain "$(dirname $(which git))/git-credential-osxkeychain"
 ```
 输完密码 `git config --global credential.helper osxkeychain`
 
