@@ -3,6 +3,7 @@
 
 开始：
 * 先app store升级系统和xcode
+* El Captain -> [System Integrity Protection](http://apple.stackexchange.com/questions/193368/what-is-the-rootless-feature-in-el-capitan-really/193379) -> [FIX](http://stackoverflow.com/questions/33145388/gem-update-install-operation-not-permitted-since-el-capitan-how-to-set-default)
 * [Chrome](https://www.baidu.com/s?wd=chrome)
 * [HomeBrew](http://brew.sh) -> 如果GFW把里面的脚本单独下载本地cat执行 -> `brew install git git-town`
 * [Shadowsocks](https://github.com/stevennuo/shadowsocks) [服务器配置](https://github.com/guanghetv/op/blob/master/server/cloud/shadowsocks.md)
