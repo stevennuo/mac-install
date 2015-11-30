@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="log" value="console.log($END$)" description="" toReformat="true" toShortenFQNames="true">
+  <template name="log" value="console.log($END$)" description="Inserts console log function" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
