@@ -16,6 +16,7 @@ mkdir ~/restore
 mkdir ~/restore/app
 mkdir ~/restore/dmg
 mkdir ~/codes
+mkdir ~/sync
 mkdir ~/cfg
 cd ~/codes
 git clone https://github.com/stevennuo/mac-install.git
@@ -58,12 +59,16 @@ iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 
 其它:
 * [DASH](https://itunes.apple.com/us/app/dash/id449589707?ls=1&mt=12)
+* [PopClip](https://pilotmoon.com/popclip/)
+  Plugin: paste/delete/selectall/trello/google/baidu/taobao/openinchrome/dash/terminal
 * [GitX](http://gitx.frim.nl/) -> 设置Terminal tool
 * [Thunder](http://mac.xunlei.com/)
 * [WeChat](http://weixin.qq.com/cgi-bin/readtemplate?t=mac)
 * [钉钉](http://www.dingtalk.com/#a1)
 * [阿里旺旺](http://labs.etao.com/aliwangwang)
 * [Aerial屏保](https://github.com/JohnCoates/Aerial)
+* [微云](http://www.weiyun.com/)
+
 
 开发:
 * [WebStorm](http://www.jetbrains.com/webstorm/) -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized) -> [live template](https://github.com/stevennuo/webstorm-es6-livetpls)
