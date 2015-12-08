@@ -25,6 +25,7 @@ git clone https://github.com/jkaving/intellij-colors-solarized.git
 ln -s ~/codes/mac-install/.gitignore_global ~/.gitignore_global
 ln -s ~/codes/mac-install/iterm/env.sh ~/cfg/env.sh
 ln -s ~/codes/mac-install/iterm/zshrc ~/.zshrc
+ln -s ~/codes/mac-install/iterm/vimrc ~/.vimrc
 ```
 
 * Git && Github
