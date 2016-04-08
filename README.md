@@ -64,6 +64,7 @@ iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
   Plugin: paste/delete/selectall/trello/google/baidu/taobao/openinchrome/dash/terminal
 * [GitX](http://gitx.frim.nl/) -> 设置Terminal tool
 * [Thunder](http://mac.xunlei.com/)
+* [aria2](https://aria2.github.io/)
 * [WeChat](http://weixin.qq.com/cgi-bin/readtemplate?t=mac)
 * [钉钉](http://www.dingtalk.com/#a1)
 * [阿里旺旺](http://labs.etao.com/aliwangwang)
