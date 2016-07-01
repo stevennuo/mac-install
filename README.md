@@ -59,6 +59,7 @@ iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 * [Nodejs](https://nodejs.org/en/) -> [permission issue](https://docs.npmjs.com/getting-started/fixing-npm-permissions) -> [cnpm](http://npm.taobao.org/) -> `npm install -fg browserify buddy.js eslint eslint-config-defaults eslint-plugin-filenames js-beautify jsinspect mocha nodemon npm-check-updates pm2`
 
 其它:
+* [1Password](https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12)
 * [Canarymail](http://canarymail.io/)
 * [DASH](https://itunes.apple.com/us/app/dash/id449589707?ls=1&mt=12)
 * [PopClip](https://pilotmoon.com/popclip/)
