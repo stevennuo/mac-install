@@ -89,7 +89,11 @@ alias cc="cd ~/codes/onionfp && pwd && ll"
 alias cm="cd ~/codes/mac-install && pwd && ll"
 alias bd="ssh master@bd.yangcong345.com"
 alias sw="ssh master@10.8.8.8"
-alias pc="proxychains4"
+#alias pc="~/codes/proxychains-ng/proxychains4 "
 alias mgd="mongod --config /usr/local/etc/mongod.conf"
+function pc() {
+    ~/codes/proxychains-ng/proxychains4 "$1" "$2" "$3"
+}
+
 # Add env.sh
 . ~/cfg/env.sh
