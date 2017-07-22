@@ -75,6 +75,7 @@ iterm里面存放的是ohmyzsh的配置文件,如果需要可以自行修改
 * [producthunt](https://www.producthunt.com/apps/mac)
 * [mosh](https://mosh.mit.edu/)
 * [Kap](https://getkap.co)
+* [Cal](http://instacalapp.com/)
 
 开发:
 * [WebStorm](http://www.jetbrains.com/webstorm/) -> [license](https://s.taobao.com/search?q=webstorm) -> [color](https://github.com/jkaving/intellij-colors-solarized) -> [live template](https://github.com/stevennuo/webstorm-es6-livetpls)
